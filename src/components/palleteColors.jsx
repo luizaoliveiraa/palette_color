@@ -26,7 +26,7 @@ export function BytesColor(props) {
         style={{
           display: "flex",
           alignItems: "center",
-          height: "100px",
+          height: "155px",
           justifyContent: "center",
           color: "white",
           fontWeight: "bold",

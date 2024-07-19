@@ -6,9 +6,7 @@ function App() {
   const [change, setChange] = useState(false);
   return (
     <div className="App">
-      <div className="div-app"
-     
-      >
+      <div className="div-app">
         <h1 className="h1">Bytes4Coolors</h1>
         <button
           className="btn-gerar-cor"
@@ -16,14 +14,14 @@ function App() {
             setChange((prev) => !prev);
           }}
         >
-          generate a random palette
+          generate a palette
         </button>
       </div>
-      <BytesColor change={change} />
-      <BytesColor change={change} />
-      <BytesColor change={change} />
-      <BytesColor change={change} />
-      <BytesColor change={change} />
+        <BytesColor change={change} />
+        <BytesColor change={change} />
+        <BytesColor change={change} />
+        <BytesColor change={change} />
+        <BytesColor change={change} />
     </div>
   );
 }

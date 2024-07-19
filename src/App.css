@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
-
+.div-pallete {
+  min-height: 90vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -48,7 +51,7 @@ p:hover {
 }
 .btn-gerar-cor {
   border-radius: 5px;
-  border: 2px solid transparent; /* Define a borda como transparente */
+  border: 2px solid transparent; 
 
   color: #3219f6;
   font-weight: bold;
@@ -70,4 +73,12 @@ p:hover {
   display: flex;
   justify-content: space-between;
   padding: 0px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-gerar-cor {
+   width: 150px;
+   font-size: 12px;
+  }   
+  
 }
